@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF639B7E254AFB0A009D1285 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF639B7D254AFB0A009D1285 /* Player.swift */; };
+		FF639B83254B02F6009D1285 /* TexureDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF639B82254B02F6009D1285 /* TexureDictionary.swift */; };
 		FF79446D252A4F3300C57322 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79446C252A4F3300C57322 /* AppDelegate.swift */; };
 		FF79446F252A4F3300C57322 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF79446E252A4F3300C57322 /* GameScene.sks */; };
 		FF794471252A4F3300C57322 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FF794470252A4F3300C57322 /* Actions.sks */; };
@@ -16,6 +18,9 @@
 		FF79447A252A4F3900C57322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF794479252A4F3900C57322 /* Assets.xcassets */; };
 		FF794485252A4F3A00C57322 /* AmongUsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF794484252A4F3A00C57322 /* AmongUsTests.swift */; };
 		FF794490252A4F3A00C57322 /* AmongUsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF79448F252A4F3A00C57322 /* AmongUsUITests.swift */; };
+		FF8B78E3255883B0005C6075 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8B78E2255883B0005C6075 /* Tasks.swift */; };
+		FFA1E79D2550458600A99C5A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA1E79C2550458600A99C5A /* Game.swift */; };
+		FFE6C52D254D9E93003F3775 /* Joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE6C52C254D9E93003F3775 /* Joystick.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF639B7D254AFB0A009D1285 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FF639B82254B02F6009D1285 /* TexureDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexureDictionary.swift; sourceTree = "<group>"; };
 		FF794469252A4F3300C57322 /* AmongUs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmongUs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF79446C252A4F3300C57322 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF79446E252A4F3300C57322 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +58,9 @@
 		FF79448B252A4F3A00C57322 /* AmongUsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmongUsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF79448F252A4F3A00C57322 /* AmongUsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmongUsUITests.swift; sourceTree = "<group>"; };
 		FF794491252A4F3A00C57322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8B78E2255883B0005C6075 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		FFA1E79C2550458600A99C5A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		FFE6C52C254D9E93003F3775 /* Joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Joystick.swift; path = "../../Circles_and_Squares/Circles and Squares/Joystick.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,11 @@
 				FF79446E252A4F3300C57322 /* GameScene.sks */,
 				FF794470252A4F3300C57322 /* Actions.sks */,
 				FF794472252A4F3300C57322 /* GameScene.swift */,
+				FF8B78E2255883B0005C6075 /* Tasks.swift */,
+				FF639B7D254AFB0A009D1285 /* Player.swift */,
+				FFA1E79C2550458600A99C5A /* Game.swift */,
+				FFE6C52C254D9E93003F3775 /* Joystick.swift */,
+				FF639B82254B02F6009D1285 /* TexureDictionary.swift */,
 				FF794474252A4F3300C57322 /* GameViewController.swift */,
 				FF794476252A4F3300C57322 /* Main.storyboard */,
 				FF794479252A4F3900C57322 /* Assets.xcassets */,
@@ -262,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF639B7E254AFB0A009D1285 /* Player.swift in Sources */,
 				FF794473252A4F3300C57322 /* GameScene.swift in Sources */,
+				FFA1E79D2550458600A99C5A /* Game.swift in Sources */,
 				FF794475252A4F3300C57322 /* GameViewController.swift in Sources */,
+				FF8B78E3255883B0005C6075 /* Tasks.swift in Sources */,
+				FFE6C52D254D9E93003F3775 /* Joystick.swift in Sources */,
+				FF639B83254B02F6009D1285 /* TexureDictionary.swift in Sources */,
 				FF79446D252A4F3300C57322 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
